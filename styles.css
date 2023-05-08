@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(22, 5, 116);
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Gaegu',cursive;
+}
+.container{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    box-sizing: inherit;
+    background-color: rgb(22, 5, 116); 
+    /* background-color: aliceblue; */
+}
+h1{
+    color: white;
+    margin-top: 40px;
+}
+.div-1{
+background-color: rgb(8, 187, 8);
+margin-top: 10%;
+}
+.div-2{
+background-color: red;
+margin-top: 10%;
+
+}
+.div-3{
+background-color: yellow;
+margin-bottom: 10%;
+}
+.div-4{
+    background-color: blue;
+    margin-bottom: 10%;
+}
+.item{
+width: 200px;
+height: 200px;
+border: 5px solid black;
+border-radius: 20px;
+z-index: 1;
+position: relative;
+cursor: pointer;
+}
+
+
